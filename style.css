@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.banner {
+  height: 400px;
+  background-size: 100% 500px;
+  background-repeat: no-repeat;
+  padding: 110px 0px 110px 500px ;
+  text-align: center;
+
+  background-image: url("https://www.japan-guide.com/g17/top_06.jpg");
+}
+h1 {
+  font-weight: bold;
+  color: white;
+  font-family: roboto;
+  font-size: 30px;
+}
+
+h2 {
+  font-weight: bold;
+  color: white;
+  font-size: 100px;
+}
+
+.container {
+  margin: 50px 330px;
+  text-align: left;
+
+}
+.sub1 {
+  color: black;
+  margin: 50px;
+  font-weight: 100;
+}
+
+p {
+  margin: 50px;
+  font-size: 20px;
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
